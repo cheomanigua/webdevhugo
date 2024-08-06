@@ -1,0 +1,11 @@
+rm firebase.json
+rm .firebaserc
+rm -r .github
+rm -r public
+sudo rm -r .git
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:cheomanigua/webdevhugo.git
+git push -u origin main
